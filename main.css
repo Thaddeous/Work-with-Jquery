@@ -1,0 +1,121 @@
+.body {
+	font-family: 'Lato', 'Special Elite', sans-serif;
+}
+
+.Top {
+	text-align: center;
+	color: #ffffff;
+	line-height: 41px;
+}
+
+/* .leftBar Starts */ 
+
+.leftBar {
+	float: left;
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+}
+
+.leftBanner {
+	height: 41px;
+	background-color: #0A3750;
+	color: #ffffff;
+	text-align: center;
+	
+}
+
+.leftMenu {
+	height: auto;
+	background-color: #0E486A;
+	color: #ffffff;
+	background-size: cover;
+	text-align: center;
+	line-height: 50px;
+}	
+
+.A img {
+	margin: 10px 0px 0px 0px;
+}
+
+.A a img {
+	margin: 40px 0px 0px 0px;
+}
+
+.leftMenu ul {
+	padding: 0px;
+	margin: 0px 0px 1px 0px;
+}
+
+.leftMenu a {
+	color: #ffffff;
+	text-decoration: none;
+	
+}
+
+/* .leftBar ends and .Rightbar starts */
+
+.rightBar {
+	float: right;
+	width: 85%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+}
+
+.rightBanner {
+	height: 41px;
+	background-color: #000000;
+	margin: 0 auto;
+	font-size: 20px;
+	word-spacing: 7px;
+	letter-spacing: 1px;
+}
+
+.mainbanner {
+	height: 535px;
+	background-image: url("http://hdwallpapersearly.com/wp-content/uploads/2014/02/wood-wallpaper-9.jpg") ;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.headTitle {
+	padding: 121px 0px 0px 0px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 250px;
+	font-family: 'Special Elite';
+}
+
+.subTitle {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Special Elite';
+	font-size: 60px;
+}
+
+/* Picture Block Starts */
+
+.box {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

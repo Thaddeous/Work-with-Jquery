@@ -3167,12 +3167,9 @@ var items = [{
 
 
 
-var firstPart = '<div style="background-image: url(';
-var lastPart = ') " class="box"></div>' 
-
 items.forEach(function(item){
   item.Images.forEach(function(image){
-    var totalString = firstPart + image.url_170x135 + lastPart
+    var totalString = '<div style="background-image: url(' + image.url_170x135 + ') " class="box"></div>';
     $('.photoContainer').append(totalString)
   })
 })

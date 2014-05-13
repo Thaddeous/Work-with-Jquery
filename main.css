@@ -12,7 +12,7 @@
 
 .leftBar {
 	float: left;
-	width: 15%;
+	width: 20%;
 	margin: 0;
 	padding: 0;
 	font-family: 'Lato';
@@ -32,6 +32,7 @@
 	color: #ffffff;
 	background-size: cover;
 	text-align: center;
+	font-size: 22px;
 	line-height: 50px;
 }	
 
@@ -54,11 +55,19 @@
 	
 }
 
+.B {
+	font-size: 18px;
+}
+
+.C {
+	font-size: 15px;
+}
+
 /* .leftBar ends and .Rightbar starts */
 
 .rightBar {
 	float: right;
-	width: 85%;
+	width: 80%;
 	margin: 0;
 	padding: 0;
 	font-family: 'Lato';
@@ -84,7 +93,7 @@
 	padding: 121px 0px 0px 0px;
 	color: #ffffff;
 	text-align: center;
-	font-size: 250px;
+	font-size: 235px;
 	font-family: 'Special Elite';
 }
 
@@ -97,19 +106,34 @@
 
 /* Picture Block Starts */
 
-.photoContainer {	
+.photoContainer {
+	width: auto;
+	text-align: center;
 }
 
 .box {
-	float: left;
+	display: inline-block;
 	width: 300px;
 	height: 300px;
 	background-size: cover;
 	margin: 15px;
 }
 
+.box:hover {
+	width: 300px;
+	height: 300px;
+	background-color: #0A3750;
+	background-size: cover;
+	opacity: 0.8;
+}
 
-
+.box:active {
+	width: 300px;
+	height: 300px;
+	background-color: #0A3750;
+	background-size: cover;
+	opacity: 0.8;
+}
 
 
 

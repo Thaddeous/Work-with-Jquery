@@ -3171,27 +3171,13 @@ items.forEach(function(item){
   item.Images.forEach(function(image){
     var totalString = '<div style="background-image: url(' + image.url_170x135 + ') " class="box"></div>';
     $('.photoContainer').append(totalString)
+    var totalString = 'div class="SquareTitles">' + item.title + '</div>'
+    $('.box').last().append(totalString)
   })
 })
 
- 
-// var firstPart = '<div style="background-image: url(';
-// var lastPart = ') " class="box"></div>' 
-
-// items.forEach(function(item){
-//   item.Images.forEach(function(image){
-//     var totalString = firstPart + image.url_170x135 + lastPart
-//     $('.photoContainer').append(totalString)
-//   })
-// })
-
-
-// items.forEach(function(item){
-// 	item.Images.forEach(function(images){
-// 		$(".container").append()
-// 	})
-// })
-
+// $('.box').click(function() {
+//    $(this).addClass('active')
 
 
 
